@@ -116,8 +116,8 @@
                  <v-list-item>
                   <v-icon color="white" class="mr-3">mdi-cellphone-sound</v-icon>
                   <v-list-item-subtitle>
-                    +255 762 670 710
-                    +255 786 424 721
+                    <!-- +255 762 670 710
+                    +255 786 424 721 -->
                   </v-list-item-subtitle>
                 </v-list-item>
               </v-list>
