@@ -36,7 +36,29 @@
       </v-btn>
     </div>
      <div class="hidden-md-and-up">
-      <v-app-bar-nav-icon></v-app-bar-nav-icon>
+      
+          <v-menu dense 
+            bottom
+            origin="center center"
+            transition="scale-transition"
+          >
+        <template v-slot:activator="{ on, attrs }" color="#525936">
+          <v-btn plain  dark v-bind="attrs" v-on="on">
+          <v-app-bar-nav-icon></v-app-bar-nav-icon>
+          </v-btn>
+        </template>
+        <v-list dense >
+          <v-list-item
+            v-for="(item, index) in items"
+            :key="index"
+            router
+            :to="item.route"
+            link
+          >
+            <v-list-item-title>{{ item.title }}</v-list-item-title>
+          </v-list-item>
+        </v-list>
+      </v-menu>
     </div>
   </v-app-bar>
 </template>
@@ -44,6 +66,14 @@
 export default {
   data: () => ({
     collapseOnScroll: true,
+     items: [
+        {  title: "Home", route: "/" },
+        { title: "About Us", route: "/about_us" },
+        {  title: "Destinations", route: "/destination" },
+         {  title: "Tours&Safaris", route: "/tours_safaris" },
+        { title: "Trekking", route: "/trekking" },
+        {  title: "Contact Us", route: "/contact_us" },
+      ],
   }),
   methods: {
     go_to_home() {
