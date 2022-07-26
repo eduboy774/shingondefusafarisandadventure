@@ -36,7 +36,7 @@
          height="200px"
          :src="n.src"
           >
-         <v-card-title>Top 10 Australian beaches</v-card-title>
+         <v-card-title>Tanzania</v-card-title>
         </v-img>
          <v-card-text class="text--primary">
             <div>Whitehaven Beach</div>
