@@ -119,7 +119,7 @@
                     <!-- +255 762 670 710
                     +255 786 424 721 -->
                   </v-list-item-subtitle>
-                </v-lis
+                </v-list-item>
               </v-list>
             </v-card-text>
          </v-flex>
