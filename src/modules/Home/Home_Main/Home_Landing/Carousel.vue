@@ -1,4 +1,6 @@
 <template>
+<v-app>
+  <v-main>
   <v-carousel
     cycle
     height="830"
@@ -21,6 +23,8 @@
         </v-row>
     </v-carousel-item>
   </v-carousel>
+  </v-main>
+  </v-app>
 </template>
 <script>
   export default {

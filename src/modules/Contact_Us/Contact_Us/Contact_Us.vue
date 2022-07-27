@@ -1,24 +1,24 @@
 <template>
- <v-main>
- <ToolBar/>
-<Card/>
-<Footer/>
- </v-main>
+  <v-app>
+     <v-main>
+        <v-container>
+            contact us
+
+        </v-container>
+     </v-main>
+  </v-app>
 </template>
 
 <script>
-import ToolBar from '../../Home/Home_Main/Home_Shared/ToolBar.vue'
-import Card from '../Contact_Us/Card.vue'
-import Footer from '../../Home/Home_Main/Home_Shared/Footer.vue'
 export default {
-components:{
-    ToolBar,
-    Card,
-    Footer
-}
-}
+  components: {
+  },
+};
 </script>
 
 <style>
-
+.hhdhd {
+  width: 100;
+  height: 100px;
+}
 </style>

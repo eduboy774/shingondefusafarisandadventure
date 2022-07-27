@@ -1,6 +1,6 @@
 <template>
-
-    <v-card
+    <v-footer>
+      <v-card
       class="flex"
       flat
       color="#525936"
@@ -132,6 +132,7 @@
           </v-divider>
 </v-layout>
     </v-card>
+    </v-footer>
 </template>
 <script>
   export default {

@@ -31,7 +31,7 @@
       <v-btn text class="white--text text-none" link to="/trekking">
         Trekking
       </v-btn>
-      <v-btn class="white--text" color="#D9946C" link to="/contact_us">
+      <v-btn class="white--text bold" color="#D9946C" link to="/contact_us" rounded>
         Contact Us
       </v-btn>
     </div>

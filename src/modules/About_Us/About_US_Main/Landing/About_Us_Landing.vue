@@ -1,6 +1,6 @@
 <template>
     <v-main>
-     <ToolBar/>
+     <br><br>
     <v-row align="center">
     <v-item-group
       v-model="window"
@@ -11,17 +11,7 @@
       <v-item
         v-for="n in length"
         :key="n"
-        v-slot="{ active, toggle }"
       >
-        <div>
-          <v-btn
-            :input-value="active"
-            icon
-            @click="toggle"
-          >
-            <v-icon>mdi-record</v-icon>
-          </v-btn>
-        </div>
       </v-item>
     </v-item-group>
 
@@ -30,6 +20,8 @@
         v-model="window"
         class="elevation-1"
         vertical
+        rounded
+        outline
       >
         <v-window-item
           v-for="n in infos"
@@ -41,15 +33,8 @@
                 class="mb-4"
                 align="center"
               >
-                <v-avatar
-                  color="grey"
-                  class="mr-4"
-                ></v-avatar>
                 <strong class="text-h6"> {{ n.title }}</strong>
                 <v-spacer></v-spacer>
-                <v-btn icon>
-                  <v-icon color="secondary">mdi-account-question-outline</v-icon>
-                </v-btn>
               </v-row>
                <h2 class="orange--text">We are Shingondefu Adventure and  Safaris</h2>
               <p>
@@ -99,15 +84,13 @@
 </template>
 
 <script>
-import Footer from '../../../Home/Home_Main/Home_Shared/Footer.vue'
-import ToolBar from '../../../Home/Home_Main/Home_Shared/ToolBar.vue'
 import Team from './Team.vue'
 export default {
   components: { 
-    Footer,ToolBar, Team},
+   Team},
     data:()=>(
       {
-        length:2,window: 0,
+        length:1,window: 0,
         infos:[
         {  title:"Who are we ?"},
         {  title:"Who are we ?"}

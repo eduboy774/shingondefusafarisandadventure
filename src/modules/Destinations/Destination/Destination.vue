@@ -1,15 +1,16 @@
 <template>
-  <v-main>
-    <ToolBar/>
-    <Footer/>
-  </v-main>
+  <v-app>
+    <v-main>
+      <v-container>
+
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import Footer from '../../Home/Home_Main/Home_Shared/Footer.vue'
-import ToolBar from '../../Home/Home_Main/Home_Shared/ToolBar.vue'
 export default {
-  components: { Footer,ToolBar },
+  components: {  },
 
 }
 </script>
