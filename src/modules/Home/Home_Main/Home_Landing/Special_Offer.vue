@@ -6,7 +6,6 @@
      <v-row justify="center">
       <h1 color="#525936" class="">Our Best Tanzania Adventures</h1>
     </v-row>
-    <br><br>
     <v-row
       class="fill-height"
       align="center"

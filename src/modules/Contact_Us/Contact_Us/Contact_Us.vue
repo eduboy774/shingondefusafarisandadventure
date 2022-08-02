@@ -8,7 +8,68 @@
               <h1 class="orange--text font-weight-bold">Contact Us</h1>
             </div>
           </v-row>
+          <div pa-10>
+          <TopStart/>
+          </div>
         </v-layout>
+          <div class="pa-10">
+          <v-layout row wrap>
+            <v-row>
+              <v-col cols="12" sm="6" md="4">
+                <v-card class="d-flex" width="200" outlined height="200">
+                  <v-list-item three-line>
+                    <v-list-item-content>
+                      <div class="text-overline mb-4">Phone</div>
+                      <v-list-item-title>
+                        +255 (0) 762 670 710  
+                      </v-list-item-title>
+                      <v-list-item-subtitle
+                        >
+                        +255 (0) 786 424 721 
+                        </v-list-item-subtitle
+                      >
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="6" md="4">
+                <v-card class="d-flex" width="200" outlined height="200">
+                  <v-list-item three-line>
+                    <v-list-item-content>
+                      <div class="text-overline mb-4">Address</div>
+                      <v-list-item-title>
+                        Tanzania Head Office
+                      </v-list-item-title>
+                      <v-list-item-subtitle
+                        >
+                        P.O.BOX 4 Karatu, Arusha 
+                        </v-list-item-subtitle
+                      >
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="6" md="4">
+                <v-card class="d-flex" width="200" outlined height="200">
+                  <v-list-item three-line>
+                    <v-list-item-content>
+                      <div class="text-overline mb-4">
+                        Working Hours</div>
+                      <v-list-item-title>
+                        07:30AM - 20:00PM  
+                      </v-list-item-title>
+                      <v-list-item-subtitle
+                        >
+                       Monday - Sunday 
+                        </v-list-item-subtitle
+                      >
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-layout>
+        </div>
         <div class="pa-10">
           <v-row>
             <v-col xs12 sm="6" justify>
@@ -82,72 +143,15 @@
             </v-col>
           </v-row>
         </div>
-        <div class="pa-10">
-          <v-layout row wrap>
-            <v-row>
-              <v-col cols="12" sm="6" md="4">
-                <v-card class="d-flex" width="200" outlined height="200">
-                  <v-list-item three-line>
-                    <v-list-item-content>
-                      <div class="text-overline mb-4">Phone</div>
-                      <v-list-item-title>
-                        +255 (0) 762 670 710  
-                      </v-list-item-title>
-                      <v-list-item-subtitle
-                        >
-                        +255 (0) 786 424 721 
-                        </v-list-item-subtitle
-                      >
-                    </v-list-item-content>
-                  </v-list-item>
-                </v-card>
-              </v-col>
-              <v-col cols="12" sm="6" md="4">
-                <v-card class="d-flex" width="200" outlined height="200">
-                  <v-list-item three-line>
-                    <v-list-item-content>
-                      <div class="text-overline mb-4">Address</div>
-                      <v-list-item-title>
-                        Tanzania Head Office
-                      </v-list-item-title>
-                      <v-list-item-subtitle
-                        >
-                        P.O.BOX 4 Karatu, Arusha 
-                        </v-list-item-subtitle
-                      >
-                    </v-list-item-content>
-                  </v-list-item>
-                </v-card>
-              </v-col>
-              <v-col cols="12" sm="6" md="4">
-                <v-card class="d-flex" width="200" outlined height="200">
-                  <v-list-item three-line>
-                    <v-list-item-content>
-                      <div class="text-overline mb-4">
-                        Working Hours</div>
-                      <v-list-item-title>
-                        07:30AM - 20:00PM  
-                      </v-list-item-title>
-                      <v-list-item-subtitle
-                        >
-                       Monday - Sunday 
-                        </v-list-item-subtitle
-                      >
-                    </v-list-item-content>
-                  </v-list-item>
-                </v-card>
-              </v-col>
-            </v-row>
-          </v-layout>
-        </div>
       </v-container>
     </v-main>
   </v-app>
 </template>
 
 <script>
+import TopStart from './TopStart.vue';
 export default {
-  components: {},
+  components: { TopStart },
 };
 </script>
 
