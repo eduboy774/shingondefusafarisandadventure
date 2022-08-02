@@ -11,7 +11,7 @@
           <div pa-10>
           </div>
         </v-layout>
-        <TopStart/>
+        <!-- <TopStart/> -->
           <div class="pa-10">
           <v-layout row wrap>
             <v-row>
@@ -149,9 +149,9 @@
 </template>
 
 <script>
-import TopStart from './TopStart.vue';
+// import TopStart from './TopStart.vue';
 export default {
-  components: { TopStart },
+  // components: { TopStart },
 };
 </script>
 

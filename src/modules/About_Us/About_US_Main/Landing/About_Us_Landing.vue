@@ -29,12 +29,9 @@
                 <v-card flat>
                   <v-card-text>
                     <v-row class="mb-4" align="center">
-                      <strong class="text-h6"> {{ n.title }}</strong>
+                      <strong class="text-h6 orange--text"> {{ n.title }}</strong>
                       <v-spacer></v-spacer>
                     </v-row>
-                    <h2 class="orange--text">
-                      We are Shingondefu Adventure and Safaris
-                    </h2>
                     <!-- <p>
                       shingondefusafaris Ltd, has acquired over the last 5 years
                       considerable experience in organizing scheduled departures
@@ -48,8 +45,6 @@
                       as our in-house workshops to maintain our fleet of
                       vehicles.
                     </p> -->
-  
-
                    <p>
                     We are well-established business founded in 2020 by Emanuel Mayo (Managing Director) who worked as a tour guide and driver 
                     before founding the company. We are locally owned and based in Karatu, Arusha - Tanzania. We also operate our own fleet of vehicles and employ 
@@ -131,7 +126,7 @@ export default {
   data: () => ({
     length: 1,
     window: 0,
-    infos: [{ title: "Who are we ?" }, { title: "Who are we ?" }],
+    infos: [{ title: "We are Shingondefu Adventure and Safaris" }, { title: "We are Shingondefu Adventure and Safaris?" }],
   }),
 };
 </script>
