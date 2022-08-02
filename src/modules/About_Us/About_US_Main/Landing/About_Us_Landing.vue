@@ -1,13 +1,13 @@
 <template>
   <v-main>
     <v-container pa-10>
-      <v-layout row wrap>
+      <v-layout row wrap justify="center">
         <v-row justify="center">
           <div class="">
             <h1 class="orange--text font-weight-bold">About Us</h1>
           </div>
         </v-row>
-        <v-row align="center">
+        <v-row justify="" align="center" outlined>
           <v-item-group
             v-model="window"
             class="shrink mr-6"

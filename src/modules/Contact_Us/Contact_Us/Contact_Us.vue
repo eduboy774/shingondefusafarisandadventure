@@ -8,70 +8,11 @@
               <h1 class="orange--text font-weight-bold">Contact Us</h1>
             </div>
           </v-row>
-          <div pa-10>
-          </div>
+          <div pa-10></div>
         </v-layout>
-        <br><br><br><br>
-        <TopStart/>
-          <div class="pa-10">
-          <v-layout row wrap>
-            <v-row>
-              <v-col cols="12" sm="6" md="4">
-                <v-card class="d-flex" width="200" outlined height="200">
-                  <v-list-item three-line>
-                    <v-list-item-content>
-                      <div class="text-overline mb-4"><b>Phone</b></div>
-                      <v-list-item-title>
-                        +255 (0) 762 670 710  
-                      </v-list-item-title>
-                      <v-list-item-title
-                        >
-                        +255 (0) 786 424 721 
-                        </v-list-item-title
-                      >
-                    </v-list-item-content>
-                  </v-list-item>
-                </v-card>
-              </v-col>
-              <v-col cols="12" sm="6" md="4">
-                <v-card class="d-flex" width="200" outlined height="200">
-                  <v-list-item three-line>
-                    <v-list-item-content>
-                      <div class="text-overline mb-4"><b><strong>Working Hours</strong></b></div>
-                      <v-list-item-title>
-                        Tanzania Head Office
-                      </v-list-item-title>
-                      <v-list-item-title
-                        >
-                        P.O.BOX 4 Karatu, Arusha 
-                        </v-list-item-title
-                      >
-                    </v-list-item-content>
-                  </v-list-item>
-                </v-card>
-              </v-col>
-              <v-col cols="12" sm="6" md="4">
-                <v-card class="d-flex" width="200" outlined height="200">
-                  <v-list-item three-line>
-                    <v-list-item-content>
-                      <div class="text-overline mb-4">
-                        <b><strong>Working Hours</strong></b></div>
-                      <v-list-item-title>
-                       <b> 24/7 <strong>Days</strong></b>
-                      </v-list-item-title>
-                      <v-list-item-title
-                        >
-                       Monday - Sunday 
-                        </v-list-item-title
-                      >
-                    </v-list-item-content>
-                  </v-list-item>
-                </v-card>
-              </v-col>
-            </v-row>
-          </v-layout>
-        </div>
-        <div class="pa-10">
+        <br /><br /><br /><br />
+        <TopStart />
+         <div class="pa-10">
           <v-row>
             <v-col xs12 sm="6" justify>
               <v-layout row wrap>
@@ -133,13 +74,62 @@
             </v-col>
             <v-col cols="12" sm="6" md="4">
               <v-layout row wrap>
-                <h1 class="font-weight-bold" color="#525936">Welcome</h1>
-                <p>
-                  <!-- I't our pleasure to work with you  -->
-                </p>
               </v-layout>
             </v-col>
           </v-row>
+        </div>
+        <div class="pa-10">
+          <v-layout row wrap>
+            <v-row>
+              <v-col cols="12" sm="6" md="4">
+                <v-card class="d-flex" width="200" outlined height="200">
+                  <v-list-item three-line>
+                    <v-list-item-content>
+                      <div class="text-overline mb-4"><b>Phone</b></div>
+                      <v-list-item-title>
+                        +255 (0) 762 670 710
+                      </v-list-item-title>
+                      <v-list-item-title>
+                        +255 (0) 786 424 721
+                      </v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="6" md="4">
+                <v-card class="d-flex" width="200" outlined height="200">
+                  <v-list-item three-line>
+                    <v-list-item-content>
+                      <div class="text-overline mb-4">
+                        <b><strong>Working Hours</strong></b>
+                      </div>
+                      <v-list-item-title>
+                        Tanzania Head Office
+                      </v-list-item-title>
+                      <v-list-item-title>
+                        P.O.BOX 4 Karatu, Arusha
+                      </v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="6" md="4">
+                <v-card class="d-flex" width="200" outlined height="200">
+                  <v-list-item three-line>
+                    <v-list-item-content>
+                      <div class="text-overline mb-4">
+                        <b><strong>Working Hours</strong></b>
+                      </div>
+                      <v-list-item-title>
+                        <b> 24/7 <strong>Days</strong></b>
+                      </v-list-item-title>
+                      <v-list-item-title> Monday - Sunday </v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-card>
+              </v-col>
+            </v-row>
+          </v-layout>
         </div>
       </v-container>
     </v-main>
@@ -147,7 +137,7 @@
 </template>
 
 <script>
-import TopStart from './TopStart.vue';
+import TopStart from "./TopStart.vue";
 export default {
   components: { TopStart },
 };
