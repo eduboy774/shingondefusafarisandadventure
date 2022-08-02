@@ -3,9 +3,10 @@
   <v-main>
   <v-carousel
     cycle
-    height="830"
+    height="950"
     hide-delimiter-background
     show-arrows-on-hover
+    fullscreen
   >
     <v-carousel-item
       v-for="(item, i) in items"
@@ -35,13 +36,15 @@
         ],
         items: [
           {
-            src: require('../../../../assets/img/masai.jpeg')
-          },
-          {
-            src: require('../../../../assets/img/serengeti-500x510.jpg')
+            src: require('../../../../assets/img/masi1.jpg'),slide: 'Discover The Unexpected Adventures'
           },
           {
             src: require('../../../../assets/img/ngorongoro-1920x1280.jpg')
+            
+          },
+          {
+            
+            src: require('../../../../assets/img/serengeti-500x510.jpg')
             
           },
         ],

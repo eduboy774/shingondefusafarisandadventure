@@ -3,7 +3,7 @@
     color="#525936"
     :collapse="!collapseOnScroll"
     :collapse-on-scroll="collapseOnScroll"
-    height="80vh"
+    height="60vh"
   >
     <v-img
       width="100"
