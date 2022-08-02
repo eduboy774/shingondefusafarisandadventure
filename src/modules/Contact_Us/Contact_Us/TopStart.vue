@@ -24,7 +24,7 @@ export default {
 
 <style>
 .main{
-    /* background-image:url("../../../assets/img/") */
+    background-image:url("../../../assets/img/car1.jpg")
 }
 
 </style>

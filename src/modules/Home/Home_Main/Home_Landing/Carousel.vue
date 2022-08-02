@@ -35,7 +35,7 @@
         ],
         items: [
           {
-            src: require('../../../../assets/img/masai-giraffe-masai-mara-1250x700.jpg')
+            src: require('../../../../assets/img/masai.jpeg')
           },
           {
             src: require('../../../../assets/img/serengeti-500x510.jpg')

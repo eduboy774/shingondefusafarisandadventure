@@ -9,9 +9,9 @@
             </div>
           </v-row>
           <div pa-10>
-          <TopStart/>
           </div>
         </v-layout>
+        <TopStart/>
           <div class="pa-10">
           <v-layout row wrap>
             <v-row>
@@ -19,14 +19,14 @@
                 <v-card class="d-flex" width="200" outlined height="200">
                   <v-list-item three-line>
                     <v-list-item-content>
-                      <div class="text-overline mb-4">Phone</div>
+                      <div class="text-overline mb-4"><b>Phone</b></div>
                       <v-list-item-title>
                         +255 (0) 762 670 710  
                       </v-list-item-title>
-                      <v-list-item-subtitle
+                      <v-list-item-title
                         >
                         +255 (0) 786 424 721 
-                        </v-list-item-subtitle
+                        </v-list-item-title
                       >
                     </v-list-item-content>
                   </v-list-item>
@@ -36,14 +36,14 @@
                 <v-card class="d-flex" width="200" outlined height="200">
                   <v-list-item three-line>
                     <v-list-item-content>
-                      <div class="text-overline mb-4">Address</div>
+                      <div class="text-overline mb-4"><b><strong>Working Hours</strong></b></div>
                       <v-list-item-title>
                         Tanzania Head Office
                       </v-list-item-title>
-                      <v-list-item-subtitle
+                      <v-list-item-title
                         >
                         P.O.BOX 4 Karatu, Arusha 
-                        </v-list-item-subtitle
+                        </v-list-item-title
                       >
                     </v-list-item-content>
                   </v-list-item>
@@ -54,14 +54,14 @@
                   <v-list-item three-line>
                     <v-list-item-content>
                       <div class="text-overline mb-4">
-                        Working Hours</div>
+                        <b><strong>Working Hours</strong></b></div>
                       <v-list-item-title>
-                        07:30AM - 20:00PM  
+                       <b> 24/7 <strong>Days</strong></b>
                       </v-list-item-title>
-                      <v-list-item-subtitle
+                      <v-list-item-title
                         >
                        Monday - Sunday 
-                        </v-list-item-subtitle
+                        </v-list-item-title
                       >
                     </v-list-item-content>
                   </v-list-item>
