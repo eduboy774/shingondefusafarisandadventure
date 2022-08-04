@@ -14,7 +14,11 @@
         <TopStart />
          <div class="pa-10">
           <v-row>
-            <v-col xs12 sm="6" justify>
+            <v-col cols="12" sm="6">
+
+            </v-col>
+            <v-spacer></v-spacer>
+            <v-col cols="12" sm="6">
               <v-layout row wrap>
                 <v-row>
                   <v-col cols="12" sm="6" md="4" class="d-flex">
