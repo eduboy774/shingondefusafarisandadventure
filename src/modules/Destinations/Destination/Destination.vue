@@ -10,10 +10,10 @@
             Select Your Best Parks For Your Travel
           </h1>
         </v-row>
+        <DestinationContent />
+        <WhyTravelWithUs />
+        <Package />
       </v-container>
-      <DestinationContent />
-      <WhyTravelWithUs />
-      <Package />
     </v-main>
   </v-app>
 </template>

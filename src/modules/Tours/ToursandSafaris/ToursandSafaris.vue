@@ -11,6 +11,8 @@
           <h1 color="#525936" class="">Tanzania Safari Packages</h1>
         </v-row>
         <TourandSafarisContent />
+        <Special_Offer />
+        <WhyTravelWithUs />
       </v-container>
     </v-main>
   </v-app>
@@ -18,10 +20,11 @@
 
 <script>
 import TourandSafarisContent from "./TourandSafarisContent.vue";
+import Special_Offer from "../../Home/Home_Main/Home_Landing/Special_Offer.vue";
+import WhyTravelWithUs from "../../Home/Home_Main/Home_Landing/WhyTravelWithUs.vue";
 export default {
-  components: { TourandSafarisContent },
+  components: { TourandSafarisContent, Special_Offer, WhyTravelWithUs },
 };
 </script>
 
-<style>
-</style>
+<style></style>
