@@ -10,48 +10,84 @@
     <v-layout row wrap>
       <v-row>
         <v-col cols="12" sm="6" md="3">
-          <v-card class="d-flex" width="300" outlined height="100">
-            <v-list-item three-line justify="center">
-              <v-list-item-content>
-                <div class="text-overline mb-3">
-                  <b><h1 class="">Comfortable safari vehicles</h1></b>
-                </div>
-              </v-list-item-content>
-            </v-list-item>
-          </v-card>
+          <v-hover v-slot="{ hover }" open-delay="200">
+            <v-card
+              class="d-flex"
+              width="300"
+              outlined
+              height="100"
+              :elevation="hover ? 16 : 2"
+              :class="{ 'on-hover': hover }"
+            >
+              <v-list-item three-line justify="center">
+                <v-list-item-content>
+                  <div class="text-overline mb-3">
+                    <b><h1 class="">Comfortable safari vehicles</h1></b>
+                  </div>
+                </v-list-item-content>
+              </v-list-item>
+            </v-card>
+          </v-hover>
         </v-col>
         <v-col cols="12" sm="6" md="3">
-          <v-card class="d-flex" width="300" outlined height="100">
-            <v-list-item three-line justify="center">
-              <v-list-item-content>
-                <div class="text-overline mb-4">
-                  <b><h1>Unique Safari</h1></b>
-                </div>
-              </v-list-item-content>
-            </v-list-item>
-          </v-card>
+          <v-hover v-slot="{ hover }" open-delay="200">
+            <v-card
+              class="d-flex"
+              width="300"
+              outlined
+              height="100"
+              :elevation="hover ? 16 : 2"
+              :class="{ 'on-hover': hover }"
+            >
+              <v-list-item three-line justify="center">
+                <v-list-item-content>
+                  <div class="text-overline mb-4">
+                    <b><h1>Unique Safari</h1></b>
+                  </div>
+                </v-list-item-content>
+              </v-list-item>
+            </v-card>
+          </v-hover>
         </v-col>
         <v-col cols="12" sm="6" md="3">
-          <v-card class="d-flex" width="300" outlined height="100" rounded>
-            <v-list-item three-line justify="center">
-              <v-list-item-content>
-                <div class="text-overline mb-4">
-                  <b><h1>Comfortable accommodations</h1></b>
-                </div>
-              </v-list-item-content>
-            </v-list-item>
-          </v-card>
+          <v-hover v-slot="{ hover }" open-delay="200">
+            <v-card
+              class="d-flex"
+              width="300"
+              outlined
+              height="100"
+              :elevation="hover ? 16 : 2"
+              :class="{ 'on-hover': hover }"
+            >
+              <v-list-item three-line justify="center">
+                <v-list-item-content>
+                  <div class="text-overline mb-4">
+                    <b><h1>Comfortable accommodations</h1></b>
+                  </div>
+                </v-list-item-content>
+              </v-list-item>
+            </v-card>
+          </v-hover>
         </v-col>
         <v-col cols="12" sm="6" md="3">
-          <v-card class="d-flex" width="300" outlined height="100" rounded>
-            <v-list-item three-line justify="center">
-              <v-list-item-content>
-                <div class="text-overline mb-4 text-center">
-                  <b><h1>Comfortable accommodations</h1></b>
-                </div>
-              </v-list-item-content>
-            </v-list-item>
-          </v-card>
+          <v-hover v-slot="{ hover }" open-delay="200">
+            <v-card
+              class="d-flex"
+              width="300"
+              outlined
+              height="100"
+              :elevation="hover ? 16 : 2"
+              :class="{ 'on-hover': hover }"
+            >
+              <v-list-item three-line justify="center">
+                <v-list-item-content>
+                  <div class="text-overline mb-4 text-center">
+                    <b><h1>Comfortable accommodations</h1></b>
+                  </div>
+                </v-list-item-content>
+              </v-list-item>
+            </v-card>
+          </v-hover>
         </v-col>
       </v-row>
     </v-layout>

@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <v-container class="pa-4" fluid>
+      <v-container class="pa-10" fluid>
         <v-layout row wrap>
           <v-row justify="center">
             <div class="">
