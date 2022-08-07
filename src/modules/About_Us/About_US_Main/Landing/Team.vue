@@ -1,5 +1,5 @@
 <template>
-  <v-container class="pa-4 text-center">
+  <v-container class="pa-4 text-center" fluid>
     <v-row justify="center">
      <h2 color="#D9946C" class="orange--text">Meet Shingondefu Team</h2>
     </v-row>

@@ -1,6 +1,6 @@
 <template>
   <v-main>
-    <v-container pa-10>
+    <v-container pa-10 fluid>
       <v-layout row wrap justify="center">
         <v-row justify="center">
           <div class="">
@@ -32,19 +32,6 @@
                       <strong class="text-h6 orange--text"> {{ n.title }}</strong>
                       <v-spacer></v-spacer>
                     </v-row>
-                    <!-- <p>
-                      shingondefusafaris Ltd, has acquired over the last 5 years
-                      considerable experience in organizing scheduled departures
-                      for set itineraries on specific days of the week,
-                      customised individual itineraries as well as handling
-                      incentive groups for large European companies in Kenya and
-                      Tanzania. We operate from our own offices in Karatu Arusha
-                      in Tanzania. Our centrally situated offices have been
-                      custom built to accommodate our Management staff,
-                      Reservations and operations departments, Accounts as well
-                      as our in-house workshops to maintain our fleet of
-                      vehicles.
-                    </p> -->
                    <p>
                     We are well-established business founded in 2020 by Emanuel Mayo (Managing Director) who worked as a tour guide and driver 
                     before founding the company. We are locally owned and based in Karatu, Arusha - Tanzania. We also operate our own fleet of vehicles and employ 
