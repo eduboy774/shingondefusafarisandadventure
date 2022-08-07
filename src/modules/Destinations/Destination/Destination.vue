@@ -12,14 +12,18 @@
         </v-row>
       </v-container>
       <DestinationContent />
+      <WhyTravelWithUs />
+      <Package />
     </v-main>
   </v-app>
 </template>
 
 <script>
 import DestinationContent from "./DestinationContent.vue";
+import Package from "../../Home/Home_Main/Home_Landing/Package.vue";
+import WhyTravelWithUs from "../../Home/Home_Main/Home_Landing/WhyTravelWithUs.vue";
 export default {
-  components: { DestinationContent },
+  components: { DestinationContent, Package, WhyTravelWithUs },
 };
 </script>
 

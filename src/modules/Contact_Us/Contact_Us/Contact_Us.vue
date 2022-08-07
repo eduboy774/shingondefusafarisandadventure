@@ -12,11 +12,9 @@
         </v-layout>
         <br /><br /><br /><br />
         <TopStart />
-         <div class="pa-10">
+        <div class="pa-10">
           <v-row>
-            <v-col cols="12" sm="6">
-
-            </v-col>
+            <v-col cols="12" sm="6"> </v-col>
             <v-spacer></v-spacer>
             <v-col cols="12" sm="6">
               <v-layout row wrap>
@@ -77,8 +75,7 @@
               </v-layout>
             </v-col>
             <v-col cols="12" sm="6" md="4">
-              <v-layout row wrap>
-              </v-layout>
+              <v-layout row wrap> </v-layout>
             </v-col>
           </v-row>
         </div>
@@ -89,9 +86,11 @@
                 <v-card class="d-flex" width="200" outlined height="200">
                   <v-list-item three-line justify="center">
                     <v-list-item-content>
-                      <div class="text-overline mb-4"><b><h1>Phone</h1></b></div>
+                      <div class="text-overline mb-4">
+                        <b><h1>Phone</h1></b>
+                      </div>
                       <v-list-item-title>
-                       <b> +255 (0) 762 670 710</b>
+                        <b> +255 (0) 762 670 710</b>
                       </v-list-item-title>
                       <v-list-item-title>
                         +255 (0) 786 424 721
@@ -105,7 +104,9 @@
                   <v-list-item three-line>
                     <v-list-item-content>
                       <div class="text-overline mb-4">
-                        <b><strong><h1>Address</h1></strong></b>
+                        <b
+                          ><strong><h1>Address</h1></strong></b
+                        >
                       </div>
                       <v-list-item-title>
                         <b>Tanzania Head Office</b>
@@ -122,7 +123,9 @@
                   <v-list-item three-line justify="center">
                     <v-list-item-content>
                       <div class="text-overline mb-4">
-                        <b><strong><h1>Working Hours</h1></strong></b>
+                        <b
+                          ><strong><h1>Working Hours</h1></strong></b
+                        >
                       </div>
                       <v-list-item-title>
                         <b> 24/7 <strong>Days</strong></b>
@@ -136,14 +139,16 @@
           </v-layout>
         </div>
       </v-container>
+      <WhyTravelWithUs />
     </v-main>
   </v-app>
 </template>
 
 <script>
 import TopStart from "./TopStart.vue";
+import WhyTravelWithUs from "../../Home/Home_Main/Home_Landing/WhyTravelWithUs.vue";
 export default {
-  components: { TopStart },
+  components: { TopStart, WhyTravelWithUs },
 };
 </script>
 

@@ -12,6 +12,7 @@
     <br /><br />
     <Package />
     <br /><br />
+    <WhyTravelWithUs />
   </v-main>
 </template>
 
@@ -21,12 +22,14 @@ import Special_Offer from "./Home_Landing/Special_Offer.vue";
 import Climbing from "./Home_Landing/Climbing.vue";
 // import Footer from './Home_Shared/Footer.vue'
 import Package from "./Home_Landing/Package.vue";
+import WhyTravelWithUs from "./Home_Landing/WhyTravelWithUs.vue";
 export default {
   components: {
     Carousel,
     Special_Offer,
     Climbing,
     Package,
+    WhyTravelWithUs,
   },
 };
 </script>
