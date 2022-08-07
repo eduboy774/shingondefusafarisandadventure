@@ -1,7 +1,7 @@
 <template>
   <v-container class="pa-4" fluid>
     <v-row justify="center" align="center">
-      <h2 color="" class="orange--text">Choose Your Package</h2>
+      <h2 color="" class="orange--text text-center">Choose Your Package</h2>
     </v-row>
     <v-row justify="center">
       <h1 color="#525936" class="">
