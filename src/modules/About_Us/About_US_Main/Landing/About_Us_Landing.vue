@@ -29,14 +29,20 @@
                 <v-card flat>
                   <v-card-text>
                     <v-row class="mb-4" align="center">
-                      <strong class="text-h6 orange--text"> {{ n.title }}</strong>
+                      <strong class="text-h6 orange--text">
+                        {{ n.title }}</strong
+                      >
                       <v-spacer></v-spacer>
                     </v-row>
-                   <p class="text-justify">
-                    We are well-established business founded in 2020 by Emanuel Mayo (Managing Director) who worked as a tour guide and driver 
-                    before founding the company. We are locally owned and based in Karatu, Arusha - Tanzania. We also operate our own fleet of vehicles and employ 
-                    our own drivers and guides which makes our prices competitive as it eliminates commission to third parties. KARIBU SANA.
-                   </p>
+                    <p class="text-justify">
+                      We are well-established business founded in 2020 by
+                      Emanuel Mayo (Managing Director) who worked as a tour
+                      guide and driver before founding the company. We are
+                      locally owned and based in Karatu, Arusha - Tanzania. We
+                      also operate our own fleet of vehicles and employ our own
+                      drivers and guides which makes our prices competitive as
+                      it eliminates commission to third parties. KARIBU SANA.
+                    </p>
                     <h4 class="orange--text">We provide</h4>
                     <v-list>
                       <v-list-item>
@@ -97,8 +103,8 @@
           <v-col lg="6"> </v-col>
         </v-row>
         <br /><br />
+        <WhyTravelWithUs />
         <Team />
-        <Footer />
       </v-layout>
     </v-container>
   </v-main>
@@ -106,14 +112,19 @@
 
 <script>
 import Team from "./Team.vue";
+import WhyTravelWithUs from "../../../Home/Home_Main/Home_Landing/WhyTravelWithUs.vue";
 export default {
   components: {
     Team,
+    WhyTravelWithUs,
   },
   data: () => ({
     length: 1,
     window: 0,
-    infos: [{ title: "We are Shingondefu Adventure and Safaris" }, { title: "We are Shingondefu Adventure and Safaris?" }],
+    infos: [
+      { title: "We are Shingondefu Adventure and Safaris" },
+      { title: "We are Shingondefu Adventure and Safaris?" },
+    ],
   }),
 };
 </script>
