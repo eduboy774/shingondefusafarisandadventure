@@ -31,15 +31,18 @@
       <v-btn text class="white--text text-none" link to="/trekking">
         Trekking
       </v-btn>
-      <v-btn
-        class="white--text bold"
-        color="#D9946C"
-        link
-        to="/contact_us"
-        rounded
-      >
-        Contact Us
-      </v-btn>
+      <v-hover v-slot="{ hover }">
+        <v-btn
+          class="white--text bold"
+          color="#D9946C"
+          link
+          to="/contact_us"
+          rounded
+          :style="{ 'background-color': hover ? '#D9946C' : '#525936' }"
+        >
+          Contact Us
+        </v-btn>
+      </v-hover>
     </div>
     <div class="hidden-md-and-up">
       <v-menu dense bottom origin="center center" transition="scale-transition">
