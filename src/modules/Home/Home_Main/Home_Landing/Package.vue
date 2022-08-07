@@ -1,15 +1,13 @@
 <template>
   <v-container class="pa-4" fluid>
-    <v-col cols="12" sm="6">
-      <v-row justify="center" align="center">
-        <h2 color="" class="orange--text">Choose Your Package</h2>
-      </v-row>
-      <v-row justify="center">
-        <h1 color="#525936" class="">
-          Select The Best Destination For Your Travel
-        </h1>
-      </v-row>
-    </v-col>
+    <v-row justify="center" align="center">
+      <h2 color="" class="orange--text">Choose Your Package</h2>
+    </v-row>
+    <v-row justify="center">
+      <h1 color="#525936" class="">
+        Select The Best Destination For Your Travel
+      </h1>
+    </v-row>
     <br /><br />
     <v-slide-group multiple show-arrows class="slick-slide" fluid center-active>
       <v-slide-item

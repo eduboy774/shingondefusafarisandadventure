@@ -87,11 +87,11 @@
             <v-row>
               <v-col cols="12" sm="6" md="4">
                 <v-card class="d-flex" width="200" outlined height="200">
-                  <v-list-item three-line>
+                  <v-list-item three-line justify="center">
                     <v-list-item-content>
-                      <div class="text-overline mb-4"><b>Phone</b></div>
+                      <div class="text-overline mb-4"><b><h1>Phone</h1></b></div>
                       <v-list-item-title>
-                        +255 (0) 762 670 710
+                       <b> +255 (0) 762 670 710</b>
                       </v-list-item-title>
                       <v-list-item-title>
                         +255 (0) 786 424 721
@@ -105,10 +105,10 @@
                   <v-list-item three-line>
                     <v-list-item-content>
                       <div class="text-overline mb-4">
-                        <b><strong>Working Hours</strong></b>
+                        <b><strong><h1>Address</h1></strong></b>
                       </div>
                       <v-list-item-title>
-                        Tanzania Head Office
+                        <b>Tanzania Head Office</b>
                       </v-list-item-title>
                       <v-list-item-title>
                         P.O.BOX 4 Karatu, Arusha
@@ -119,10 +119,10 @@
               </v-col>
               <v-col cols="12" sm="6" md="4">
                 <v-card class="d-flex" width="200" outlined height="200">
-                  <v-list-item three-line>
+                  <v-list-item three-line justify="center">
                     <v-list-item-content>
                       <div class="text-overline mb-4">
-                        <b><strong>Working Hours</strong></b>
+                        <b><strong><h1>Working Hours</h1></strong></b>
                       </div>
                       <v-list-item-title>
                         <b> 24/7 <strong>Days</strong></b>

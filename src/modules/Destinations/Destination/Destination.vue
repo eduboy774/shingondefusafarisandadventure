@@ -10,18 +10,16 @@
             Select Your Best Parks For Your Travel
           </h1>
         </v-row>
-        <br /><br />
-        <col cols="12" md="4" />
-        <div class=""></div>
-        <col />
       </v-container>
+      <DestinationContent />
     </v-main>
   </v-app>
 </template>
 
 <script>
+import DestinationContent from "./DestinationContent.vue";
 export default {
-  components: {},
+  components: { DestinationContent },
 };
 </script>
 

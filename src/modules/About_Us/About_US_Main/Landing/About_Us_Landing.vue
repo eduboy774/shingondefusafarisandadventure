@@ -32,7 +32,7 @@
                       <strong class="text-h6 orange--text"> {{ n.title }}</strong>
                       <v-spacer></v-spacer>
                     </v-row>
-                   <p>
+                   <p class="text-justify">
                     We are well-established business founded in 2020 by Emanuel Mayo (Managing Director) who worked as a tour guide and driver 
                     before founding the company. We are locally owned and based in Karatu, Arusha - Tanzania. We also operate our own fleet of vehicles and employ 
                     our own drivers and guides which makes our prices competitive as it eliminates commission to third parties. KARIBU SANA.
