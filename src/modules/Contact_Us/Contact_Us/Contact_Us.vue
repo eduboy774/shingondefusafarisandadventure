@@ -119,7 +119,12 @@
                 </v-card>
               </v-col>
               <v-col cols="12" sm="6" md="4">
-                <v-card class="d-flex" width="200" outlined height="200">
+                <v-card
+                  class="d-flex rounded-card"
+                  width="200"
+                  outlined
+                  height="200"
+                >
                   <v-list-item three-line justify="center">
                     <v-list-item-content>
                       <div class="text-overline mb-4">
@@ -159,5 +164,8 @@ export default {
 }
 .hange {
   text-transform: unset !important;
+}
+.rounded-card {
+  border-radius: 100px;
 }
 </style>
