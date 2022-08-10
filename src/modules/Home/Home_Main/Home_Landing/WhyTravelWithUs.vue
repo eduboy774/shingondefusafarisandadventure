@@ -4,7 +4,7 @@
       <h2 color="" class="orange--text">Why Travel With</h2>
     </v-row>
     <v-row justify="center">
-      <h1 color="#525936" class="">Shingondefu Adventure & Safari</h1>
+      <h1 color="#525936" class="">Shingondefu Adventure & Safaris</h1>
     </v-row>
     <br /><br />
     <v-layout row wrap>
