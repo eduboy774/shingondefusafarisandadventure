@@ -3,9 +3,11 @@
     <Carousel />
     <v-row justify="center">
       <v-btn icon large color="orange"
-        ><v-icon large>mdi-chevron-down-circle</v-icon></v-btn
+      @click="scrollToBottom"  
+      ><v-icon large>mdi-chevron-down-circle</v-icon></v-btn
       >
     </v-row>
+    <div ref="bottom">
     <Special_Offer />
     <br /><br />
     <Climbing />
@@ -13,6 +15,10 @@
     <Package />
     <br /><br />
     <WhyTravelWithUs />
+   </div>
+   <div ref="bottom">
+
+   </div>
   </v-main>
 </template>
 
@@ -31,6 +37,29 @@ export default {
     Package,
     WhyTravelWithUs,
   },
+  methods:{
+    scrollToBottom() {
+      this.$nextTick(() => {
+        
+        const bottomElement = this.$refs.bottom;
+
+        if (bottomElement) {
+          const bottomPosition = bottomElement.offsetTop;
+          window.scrollTo({
+            top: bottomPosition,
+            behavior: 'smooth'
+          });
+        } else {
+          // Fallback code if the bottom element is undefined
+          console.warn('The bottom element is undefined');
+        }
+      });
+    }
+  
+
+
+    }
+
 };
 </script>
 
