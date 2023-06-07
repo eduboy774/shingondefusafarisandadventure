@@ -26,6 +26,7 @@
                       dense
                       small
                       color="orange"
+                      v-model="conctact_us.contact_us_name"
                     ></v-text-field>
                   </v-col>
                   <v-col cols="12" sm="6" md="4" class="d-flex">
@@ -34,6 +35,7 @@
                       outlined
                       dense
                       color="orange"
+                      v-model="conctact_us.contact_us_subject"
                     ></v-text-field>
                   </v-col>
                 </v-row>
@@ -47,6 +49,7 @@
                       outlined
                       dense
                       color="orange"
+                      v-model="conctact_us.contact_us_email"
                     ></v-text-field>
                   </v-col>
                   <v-col cols="11" sm="5" md="4" small class="d-flex">
@@ -59,6 +62,7 @@
                       shaped
                       required
                       color="orange"
+                      v-model="conctact_us.contact_us_message"
                     ></v-textarea>
                   </v-col>
                 </v-row>
@@ -67,7 +71,11 @@
                 <v-row>
                   <v-col cols="12" sm="6" class="d-flex"> </v-col>
                   <v-col class="d-flex" cols="12" sm="6">
-                    <v-btn color="#D9946C" class="hange white--text">
+                    <v-btn 
+                    color="#D9946C" 
+                    class="hange white--text"
+                    @click="contact_submit"
+                    >
                       Submit</v-btn
                     >
                   </v-col>
@@ -154,6 +162,26 @@ import TopStart from "./TopStart.vue";
 import WhyTravelWithUs from "../../Home/Home_Main/Home_Landing/WhyTravelWithUs.vue";
 export default {
   components: { TopStart, WhyTravelWithUs },
+  data(){
+     return{
+      
+
+      // making dto object for data checking
+      conctact_us:{
+        contact_us_message:null,
+        contact_us_email:null,
+        contact_us_name:null
+      }
+
+     }
+  },
+  methods:{
+    contact_submit()
+    {
+      console.log("submit",this.conctact_us);
+      
+    }
+  }
 };
 </script>
 
